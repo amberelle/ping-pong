@@ -1,3 +1,29 @@
 /*#result {
   display: none;
 }*/
+.sidebar {
+  width: 20%;
+
+  float: left;
+  background-color: #8FBC8F;
+}
+
+.sidebar2 {
+  width: 70%;
+
+  float: right;
+
+}
+.header {
+  background-color:	#FFDEAD
+  
+}
+
+h1 {
+  text-align: center;
+
+}
+
+body {
+  background-color: #F5F5F5
+}

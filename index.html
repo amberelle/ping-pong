@@ -1,30 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-  <link href=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-1.12.2.js"></script>
   <script src="js/scripts.js"></script>
   <title>Ping Pong</title>
 </head>
 <body>
-  <div class="container">
+  <div class="header">
     <h1> Ping Pong </h1>
-    <form id="ping-pong">
-      <div class="form-group">
-        <label for= "number">Enter your number here</label>
-        <input id="number_input" type="text">
-      </div>
-
-      <button type="submit" class="btn">press my button</button>
-
-    </form>
-
-    <div id="result">
-      <ul id="list"></ul>
-      <!-- <h3>Here are your scores: <span id="answer"></span></h3> -->
-    </div>
   </div>
-</body>
-</html>
+  <div class="container">
+    
+
+    <div class="row">
+      <div class="sidebar" class="col-md-4">
+        <h3>About Ping Pong</h3>
+        <h4>Created by:</h4>
+        <h5>Amber Baird</h5>
+        <h4>GitHub Username/URL:</h4>
+        <h5>amberelle</h5>
+        <h4>Level @ test for:</h4>
+        <h5>JavaScript</h5>
+
+      </div>
+      <div class="sidebar2" class="col-md-8">
+        <h2>Let's play!</h2>
+        <h3>Rules:</h3>
+          <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
+          <ol>
+            <li>Numbers divisible by 3 become "ping"</li>
+            <li>Numbers divisible by 5 become "pong"</li>
+            <li>Numbers divisible by 3 and 5 become "pingpong"</li>
+          </ol>
+
+          <form id="ping-pong">
+            <div class="form-group">
+              <label for= "number">Enter your number here:</label>
+              <input id="number_input" type="text">
+            </div>
+
+            <button type="submit" class="btn">Play Ping Pong! </button>
+          </form>
+
+
+            <ul id="list"></ul>
+
+
+        </div>
+      </div>
+    </div>
+  </body>
+  </html>
