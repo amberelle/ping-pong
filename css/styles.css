@@ -1,29 +1,32 @@
-/*#result {
-  display: none;
-}*/
 .sidebar {
   width: 20%;
-
   float: left;
   background-color: #8FBC8F;
+  height: 1000px;
+  padding: 10px;
+  margin-top: 25px;
 }
 
 .sidebar2 {
   width: 70%;
-
   float: right;
-
 }
 .header {
-  background-color:	#FFDEAD
-  
+  background-color:	#FFDEAD;
+  height: 100px;
 }
 
 h1 {
   text-align: center;
-
 }
 
 body {
   background-color: #F5F5F5
+}
+
+#color1 {
+  color: #FFDEAD
+}
+#color2 {
+  color: white
 }
