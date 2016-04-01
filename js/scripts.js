@@ -1,11 +1,14 @@
 //business logic
 var pingandpong = function(score) {
-  if (score % 3 === 0) {
-      return "ping";
-  } else if (score % 5 === 0){
-      return "pong";
-  } else ((score % 3 === 0) && (score % 5 === 0)){
-      return "pingpong";
+for (var index = 1; index <= score; index +=1) {
+  if (index % 3 === 0 && index % 5 === 0) {
+      $("#list").append("<li>" + "ping" + "</li>");
+  } else if (index % 5 === 0){
+      $("#list").append("<li>" + "ping" + "</li>");
+  } else if (index % 3 === 0){
+      $("#list").append("<li>" + "ping" + "</li>");
+  } else {
+      $("#list").prompt("please enter a number");
   }
 };
 
